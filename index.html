@@ -1,0 +1,69 @@
+<!doctype html> <!-- This helps browsers what type of html you've used on your files. Browsers will load the HTML file first then look for the CSS files and finally the Jscrip-->
+<!-- If you develop your site on Chrome it'll most likely work or at least will have fewer bugs on Safari as Chrome was originally built using Apple's web kit program-->
+<!-- Spend the majority of your time on testing even more than development and design-->
+<!-- Do backend and front end development at the same time so the logic stays similar as possible throughout-->
+<!-- Colorpicker.com for finding hexadecimal column values as older browsers can't read CSS styling colours-->
+<!-- Document object model (DOM) it's a way of organising/grouping together data. It refers to the overall layout/family tree of the web page so it's searchable-->
+<!-- HTML cheat sheet is useful for HTML coding guide/naming conventions. Also webplatform.org and MDN-->
+<!-- Sublime text is a plain text editor-->
+
+<html>
+
+	<head>
+			<!-- Page info goes here i.e comments from developer. Think of head and body like human anatomy. You have a head and body :-)-->
+			<title>Hafi Imam</title>
+			<meta charset="utf-8"> <!-- Useful to help windows recognise special characters-->
+
+			<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+			<link rel="stylesheet" href="css/style.css">
+
+			
+	</head>
+
+	<body>
+
+		<div  class="main"> <!-- this is useful as means to refer in CSS to your html file. In CSS you'd preceed this class with a dot-->
+
+		<h1>Hafi Imam</h1>
+		<h2>Web Developer, Project Manager & Musician</h2>
+
+		<img src="images/me.jpg" alt="Hafi Imam">
+
+		<h3>About me</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<h3>My Top Three Favourite Savoury Fruits</h3>
+		<ol> <!-- Oredered list-->
+			<li>Avocado</li> <!-- list item-->
+			<li>Pumpkin</li>
+			<li>Pepper</li>
+		</ol>
+
+	<h3>Me on the Web</h3>
+
+	<ul> <!-- Unordered list-->
+		<li>
+			<a href="http://twitter.com/bisolamusic" target="_blank"> <!-- Use the target element to open a link in a separate tab-->
+				Twitter
+			</a>
+		</li>
+		<li>
+			<a href="http://facebook.com/bisolamusic">
+				Facebook
+			</a>
+		</li>
+	</ul>
+</div> <!-- Use DIV element to create boundaries for your content - although header and footer functions can be used-->
+
+<script src="http://code.jquery.com/jquery.js"></script> <!-- best to put this at the bottom of your html as tells the browser to load the script after it's fetched the html and css files-->
+<script src="js/main.js"></script>
+
+	</body>
+
+	</html>

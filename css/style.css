@@ -1,0 +1,78 @@
+/*Like this - for developers notes*/
+body {
+	background-color: white;
+	background-image: url(../images/me.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:Helvetica, Arial, sans-serif; /*this means if you're on an apple device Helvetica will load up, then for windows it's Arial. So effectively it orders what type of fonts your browser will display in depending on what your PC  has*/
+}
+
+
+
+.main{
+	background-color: white;
+	background-color: rgba(255,255,255,0.85);
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0 0 20px 500px blue; /*horizontal, vertical, blur, color*/
+}
+/*@media screen queries are like if statements*/
+/*use cssmediaqueries to show all potential option you can code for all types of media*/
+
+@media screen and (max-width: 768px) {
+	.main {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+h1 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 0 0 5px green;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	border: 20px solid pink;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+		border: 20px solid #ff00ff;
+		border-radius: 50px;
+	}
+
+	h3 {
+		font-size: 24px;
+		cursor: pointer;
+		margin-bottom: 0;
+	}
+	h3:hover {
+		text-decoration: underline;
+	}
+
+		p,
+	ul,
+	ol {
+		list-style: none;
+		line-height: 1.7;
+		padding-left: 0;
+	}
+
+	a { 
+		color: #ff00cc;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a:hover {
+		color: #aa0066;
+		text-decoration: underline;
+	}
